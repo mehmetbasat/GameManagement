@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EasyWSDL>
+  <Info>
+    <Version>9.0.0.0</Version>
+    <AccountType>Basic</AccountType>
+    <LibrariesFolder>easywsdl</LibrariesFolder>
+    <MainClass>PGNKPSPublicSoap</MainClass>
+  </Info>
+  <Settings>
+    <Url>https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx</Url>
+    <ClassPrefix/>
+    <PackageName>MernisServiceReference</PackageName>
+    <AddDocumentation>false</AddDocumentation>
+    <EnableAdvancedFeatures>true</EnableAdvancedFeatures>
+    <EnableMTOM>false</EnableMTOM>
+    <EncodeIllegalCharacters>true</EncodeIllegalCharacters>
+    <GenerateAsyncOperations>true</GenerateAsyncOperations>
+    <ImplementSerializable>false</ImplementSerializable>
+    <ImplementParcelable>false</ImplementParcelable>
+    <AddAnyCollection>false</AddAnyCollection>
+    <DateTimeSupport>Default</DateTimeSupport>
+    <Repackage/>
+    <GenerateHtmlDocumentation>false</GenerateHtmlDocumentation>
+    <AddDataSetSupport>false</AddDataSetSupport>
+    <PlatformType>JavaAndroidV2</PlatformType>
+    <Annotations>None</Annotations>
+    <AddLibraries>true</AddLibraries>
+    <GenerateGetSetMethods>false</GenerateGetSetMethods>
+    <DetectDictionaries>false</DetectDictionaries>
+  </Settings>
+  <Files>
+    <File>PGNBinaryObject.java</File>
+    <File>PGNConnectionProvider.java</File>
+    <File>PGNDateTimeParser.java</File>
+    <File>PGNHelper.java</File>
+    <File>PGNKPSPublicSoap.java</File>
+    <File>PGNKPSPublicSoap12.java</File>
+    <File>PGNRequestResultHandler.java</File>
+    <File>PGNResponseData.java</File>
+    <File>PGNSoapException.java</File>
+    <File>PGNStandardDateTimeParser.java</File>
+  </Files>
+  <Libraries/>
+</EasyWSDL>
